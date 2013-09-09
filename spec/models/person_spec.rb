@@ -5,7 +5,6 @@ describe Person do
   		Person.new(first_name: "Walter", last_name: "White")
 	end
   it 'is valid' do
-  	person = Person.new(first_name: "Walter", last_name: "White")
   	expect(person).to be_valid
   end
   it 'is invalid without a first name' do
